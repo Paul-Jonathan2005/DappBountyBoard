@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: #d1d5db;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0px 0;
+  background: linear-gradient(90deg, #0f5b82 0%, #1a3744 50%, #0f5b82 100%);
+  z-index: 10;
+}
