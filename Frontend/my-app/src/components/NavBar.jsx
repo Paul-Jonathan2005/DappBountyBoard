@@ -156,10 +156,12 @@ function NavBar() {
             </ul>
           )}
         </>
-        } */}
+        } */}{isAdmin &&
+			<>
 					<li onClick={() => setGovernanceOpen(!governanceOpen)}>
 						⚖️ {expanded && 'Governance ▾'}
 					</li>
+
 					{isGovernanceOpen && expanded && (
 						<ul className="submenu">
 							<Link to="/voter/disputed-bounties">
@@ -174,6 +176,7 @@ function NavBar() {
 							</Link>
 						</ul>
 					)}
+					</>}
 				</ul>
 			</nav>
 		</div>
